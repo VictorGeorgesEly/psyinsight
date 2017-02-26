@@ -1,0 +1,175 @@
+/*
+----------
+Général
+----------
+*/
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+nav{
+  background-color: #fff;
+}
+
+nav ul a{
+  color: black;
+}
+
+.menu-responsive{
+  color: black;
+}
+
+.logo{
+  width: 100px;
+}
+
+.logo_responsive{
+  width: 250px;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.offres{
+  font-size: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .logo{
+    width: 90px;
+  }
+}
+
+.parallax-container {
+  height: 400px;
+}
+
+.center{
+  text-align: center;
+}
+
+.after_button{
+  padding-top: 20px;
+}
+
+.h1_white{
+  color: white;
+  font-size: 6em;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 10px;
+  border: 2px solid white;
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  background-color: inherit;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.prestations{
+  padding-top: 40px;
+}
+
+.url{
+  color: inherit;
+}
+
+.color{
+  color: #913416;
+}
+
+.google_maps{
+  height:400px;
+  filter:grayscale(90%);
+  -webkit-filter:grayscale(90%);
+}
+
+.darken {
+  filter: brightness(0.4);
+}
+
+.darken1 {
+  filter: brightness(0.8);
+}
+
+/*
+----------
+Modify materialize
+----------
+*/
+
+.slider .indicators .indicator-item.active{
+  background-color: #913416;
+}
+
+input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #913416;
+    box-shadow: 0 1px 0 0 #913416;
+}
+
+input:not([type]).valid, input:not([type]):focus.valid, input[type=text].valid, input[type=text]:focus.valid, input[type=password].valid, input[type=password]:focus.valid, input[type=email].valid, input[type=email]:focus.valid, input[type=url].valid, input[type=url]:focus.valid, input[type=time].valid, input[type=time]:focus.valid, input[type=date].valid, input[type=date]:focus.valid, input[type=datetime].valid, input[type=datetime]:focus.valid, input[type=datetime-local].valid, input[type=datetime-local]:focus.valid, input[type=tel].valid, input[type=tel]:focus.valid, input[type=number].valid, input[type=number]:focus.valid, input[type=search].valid, input[type=search]:focus.valid, textarea.materialize-textarea.valid, textarea.materialize-textarea:focus.valid {
+  border-bottom: 1px solid #913416;
+  box-shadow: 0 1px 0 0 #913416
+}
+
+.input-field .prefix.active{
+  color: #913416 !important;
+}
+
+.input-field label.active{
+  color: #913416 !important;
+}
+
+[type="checkbox"].filled-in:checked + label:after {
+  border: 2px solid #913416;
+  background-color: #913416;
+}
+
+.btn, .btn-large{
+  background-color: #913416;
+}
+
+.btn:hover, .btn-large:hover{
+  background-color: #A03918;
+}
+
+footer.page-footer{
+  background-color: #913416;
+}

@@ -1,0 +1,14 @@
+AddType application/x-httpd-php .php
+AddType application/x-httpd-php .phtml
+AddType application/x-httpd-php .php3
+AddType application/x-httpd-php .php4
+AddType application/x-httpd-php .html
+AddType application/x-httpd-php-source .phps
+
+RewriteEngine On
+# RewriteBase "/~pichet/"
+RewriteBase "/psyinsight/"
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule "(.*)" "./$1.php" [L]

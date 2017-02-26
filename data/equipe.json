@@ -1,0 +1,114 @@
+{
+  "equipe": [
+    {
+      "nom": "Ugo CLOCHIATTI",
+      "imageUrl": "img/membres/ugo.png",
+      "role": "Président",
+      "links": [
+        {
+          "url":"",
+          "icon":"insert_chart"
+        }
+      ]
+    },
+    {
+      "nom": "Stanley PETIT",
+      "imageUrl": "img/membres/stanley.png",
+      "role": "Secrétaire Général",
+      "links": [
+        {
+          "url":"",
+          "icon":"insert_chart"
+        }
+      ]
+    },
+    {
+      "nom": "Alexandre THOMAS",
+      "imageUrl": "img/membres/alexandre.png",
+      "role": "Trésorier",
+      "links": [
+        {
+          "url":"",
+          "icon":"insert_chart"
+        }
+      ]
+    },
+    {
+      "nom": "Victoria LAYA",
+      "imageUrl": "img/membres/victoria.png",
+      "role": "Vice-Trésorière",
+      "links": [
+        {
+          "url":"",
+          "icon":"insert_chart"
+        }
+      ]
+    },
+    {
+      "nom": "Claire DE VECCHI",
+      "imageUrl": "img/membres/claire.png",
+      "role": "Responsable Commerciale",
+      "links": [
+        {
+          "url":"",
+          "icon":"insert_chart"
+        }
+      ]
+    },
+    {
+      "nom": "Delphine DE LA BASTIDE",
+      "imageUrl": "img/membres/delphine.png",
+      "role": "Responsable qualité",
+      "links": [
+        {
+          "url":"",
+          "icon":"insert_chart"
+        }
+      ]
+    },
+    {
+      "nom": "Mathilde RAVINET",
+      "imageUrl": "img/membres/mathilde.png",
+      "role": "Responsable RFP",
+      "links": [
+        {
+          "url":"",
+          "icon":"insert_chart"
+        }
+      ]
+    },
+    {
+      "nom": "Victoire LATIL",
+      "imageUrl": "img/membres/victoire.png",
+      "role": "Responsable communication et RFP",
+      "links": [
+        {
+          "url":"",
+          "icon":"insert_chart"
+        }
+      ]
+    },
+    {
+      "nom": "Aude PLESSIER",
+      "imageUrl": "img/membres/aude.png",
+      "role": "Chef de projet",
+      "links": [
+        {
+          "url":"",
+          "icon":"insert_chart"
+        }
+      ]
+    },
+    {
+      "nom": "Anaïs LABEYRIE",
+      "imageUrl": "img/membres/anais.png",
+      "role": "Chef de projet",
+      "links": [
+        {
+          "url":"",
+          "icon":"insert_chart"
+        }
+      ]
+    }
+  ]
+}
